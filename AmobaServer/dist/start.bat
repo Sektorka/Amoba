@@ -1,0 +1,1 @@
+java -jar AmobaServer.jar 9100
