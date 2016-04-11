@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Amőba</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_new_game">Új játék indítása</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialogOptionYes">Igen</string>
+    <string name="dialogOptionNo">Nem</string>
+    <string name="dialogExitGameConfirm">Biztos, hogy kilépsz a játékból?</string>
+    <string name="dialogExit">Kilépés</string>
+    <string name="lblServerName">Szerver neve:</string>
+    <string name="lblWidth">Szélesség: %1$d</string>
+    <string name="lblHeight">Magasság: %1$d</string>
+    <string name="lblPassword">Jelszó:</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="toastSettingsSaveFailed">Beállítások mentése sikertelen</string>
+    <string name="toastSettingsLoadFailed">Beállítások betöltése sikertelen</string>
+    <string name="settingsTitle">Beállítások</string>
+    <string name="settingsMasterServerHost">Mester szerver hoszt:</string>
+    <string name="settingsMasterServerPort">Mester szerver port:</string>
+    <string name="settingsNickName">Becenév:</string>
+    <string name="settingsClientID">Kliens azonosító:</string>
+    <string name="aboutTitle">Névjegy</string>
+    <string name="chatTitle">Chat</string>
+    <string name="aboutAuthor">Fejlesztő: Szász Endre</string>
+    <string name="aboutVersion">Verzió: %1$s</string>
+    <string name="btnSave">Mentés</string>
+    <string name="btnClose">Bezárás</string>
+    <string name="btnOk">OK</string>
+    <string name="btnConnect">Kapcsolódás</string>
+    <string name="btnCancel">Mégse</string>
+    <string name="btnWatch">Megnéz</string>
+    <string name="title_activity_not_started_matches">Szabad meccsek listája</string>
+    <string name="title_activity_played_games">Lejátszott játszmák</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="playedGameLine">%1$s :: %2$d x %3$d mező</string>
+    <string name="enter">Belép</string>
+    <string name="btnEnter">Belép</string>
+    <string name="invalidPasswordTyped">Hibás jelszót adtál meg!</string>
+    <string name="youWin">Gratulálok nyertél! :)</string>
+    <string name="youLose">Már megint vesztettél! :(</string>
+    <string name="stateDraw">Elfogytak a mezők! Döntetlen :|</string>
+    <string name="partnerLeavedTheMatch">A másik játékos kilépett a játékból. :/</string>
+    <string name="areYouSureYouWantToAbortCurrentGame">Biztos, hogy megszakítod a jelenlegi játszmát?</string>
+    <string name="btnYes">Igen</string>
+    <string name="btnNo">Nem</string>
+    <string name="waitingForPartner">Várakozás az ellenfélre...</string>
+
+    <string name="miNewGame">Új hálózati játszma</string>
+    <string name="miCurrentGames">Jelenlegi játszmák</string>
+    <string name="miPlayedGames">Lejátszott játszmák</string>
+    <string name="miSettings">Beállítások</string>
+    <string name="miAbout">Névjegy</string>
+    <string name="miExit">Kilépés</string>
+    <string name="joinPassword">csatlakozási jelszó</string>
+    <string name="unableToConnectMasterServer">A játék nem kapcsolódott a mester szerverhez! :(</string>
+    <string name="player">Játékos</string><string name="btnSend">Üzen</string><string name="tbMsg">Üzenet...</string>
+</resources>

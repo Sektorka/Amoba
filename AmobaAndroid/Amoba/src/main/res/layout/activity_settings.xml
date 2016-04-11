@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:padding="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_margin="5dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settingsMasterServerHost"
+                android:id="@+id/lblMasterServerHost" android:layout_gravity="center|left" android:textSize="10pt"
+                android:textColor="#ffffff"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="193.164.131.22"
+                android:id="@+id/tbMasterServerHost" android:layout_gravity="center"/>
+            <View
+                android:background="#8d8d8d"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_margin="5dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settingsMasterServerPort"
+                android:id="@+id/lblMasterServerPort" android:layout_gravity="center|left" android:textSize="10pt"
+                android:textColor="#ffffff"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:text="9100"
+                android:id="@+id/tbMasterServerPort" android:layout_gravity="center" android:editable="false"/>
+            <View
+                android:background="#8d8d8d"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_margin="5dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settingsNickName"
+                android:id="@+id/lblNickName" android:layout_gravity="center|left" android:textSize="10pt"
+                android:textColor="#ffffff"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tbNickName" android:layout_gravity="center"/>
+
+            <View
+                android:background="#8d8d8d"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_margin="5dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settingsClientID"
+                android:id="@+id/lblClientID" android:layout_gravity="center|left" android:textSize="10pt"
+                android:textColor="#ffffff"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tbClientID" android:layout_gravity="center" android:editable="false"/>
+            <View
+                android:background="#8d8d8d"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_margin="5dp">
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSave"
+                android:id="@+id/btnSave" android:layout_gravity="center" android:layout_weight="1"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnCancel"
+                android:id="@+id/btnCancel" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
